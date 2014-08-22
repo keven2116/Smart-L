@@ -1,4 +1,3 @@
-Smart
+Smart Desktop
 =====
-
 ~~
