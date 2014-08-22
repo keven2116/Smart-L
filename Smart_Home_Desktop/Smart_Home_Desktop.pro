@@ -1,7 +1,9 @@
 #-------------------------------------------------
 #
 # Project created by QtCreator 2014-03-09T20:16:27
-#
+# Author:keven
+# Blog:http://blog.163.com/wenwen10090215@126/
+# github:https://github.com/bjwrkj/
 #-------------------------------------------------
 
 QT       += core gui
