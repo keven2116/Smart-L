@@ -1,0 +1,185 @@
+<RCC>
+    <qresource prefix="/contentWidget">
+        <file>images/contentWidget/camera.png</file>
+        <file>images/contentWidget/fans.png</file>
+        <file>images/contentWidget/gallery.png</file>
+        <file alias="home">images/contentWidget/home.png</file>
+        <file>images/contentWidget/information.png</file>
+        <file>images/contentWidget/internet.png</file>
+        <file alias="menu">images/contentWidget/meun.png</file>
+        <file>images/contentWidget/music.png</file>
+        <file>images/contentWidget/phone .png</file>
+        <file>images/contentWidget/play.png</file>
+        <file>images/contentWidget/power.png</file>
+        <file>images/contentWidget/settings.png</file>
+        <file>images/contentWidget/share.png</file>
+        <file>images/contentWidget/stop.png</file>
+        <file>images/contentWidget/user.png</file>
+        <file>images/contentWidget/yun.png</file>
+    </qresource>
+    <qresource prefix="/loginDialog">
+        <file alias="1">images/loginDialog/1.png</file>
+        <file alias="2">images/loginDialog/2.png</file>
+        <file alias="3">images/loginDialog/3.png</file>
+        <file alias="4">images/loginDialog/4.png</file>
+    </qresource>
+    <qresource prefix="/Skin">
+        <file>images/Skin/0.png</file>
+        <file>images/Skin/1.png</file>
+        <file>images/Skin/2.png</file>
+        <file>images/Skin/3.png</file>
+        <file>images/Skin/4.png</file>
+        <file>images/Skin/5.png</file>
+        <file>images/Skin/6.png</file>
+        <file>images/Skin/7.png</file>
+        <file>images/Skin/8.png</file>
+        <file>images/Skin/9.png</file>
+        <file>images/Skin/10.png</file>
+        <file>images/Skin/11.png</file>
+        <file>images/Skin/12.png</file>
+        <file>images/Skin/13.png</file>
+        <file>images/Skin/14.png</file>
+        <file>images/Skin/15.jpg</file>
+        <file>images/Skin/16.jpg</file>
+        <file alias="17">images/Skin/17.jpg</file>
+        <file>images/Skin/18.jpg</file>
+        <file>images/Skin/19.jpg</file>
+        <file>images/Skin/20.jpg</file>
+        <file>images/Skin/21.jpg</file>
+        <file>images/Skin/22.jpg</file>
+        <file>images/Skin/23.jpg</file>
+        <file alias="24">images/Skin/24.jpg</file>
+        <file alias="222">images/Skin/2.jpg</file>
+    </qresource>
+    <qresource prefix="/SysButton">
+        <file>images/SysButton/Hide.png</file>
+        <file alias="skin">images/SysButton/skin.png</file>
+        <file alias="close">images/SysButton/sys_button_close.png</file>
+        <file alias="menu">images/SysButton/menu.png</file>
+        <file alias="min">images/SysButton/sys_button_min.png</file>
+    </qresource>
+    <qresource prefix="/TrayMenu">
+        <file alias="advanced">images/TrayMenu/advanced.png</file>
+        <file alias="advanced-hover">images/TrayMenu/advanced-hover.png</file>
+        <file alias="device_status">images/TrayMenu/Device_status.png</file>
+        <file alias="information">images/TrayMenu/information.png</file>
+        <file alias="music">images/TrayMenu/music.png</file>
+        <file alias="open">images/TrayMenu/open.png</file>
+        <file alias="quit">images/TrayMenu/quit.png</file>
+        <file alias="quit-hover">images/TrayMenu/quit-hover.png</file>
+        <file alias="setting">images/TrayMenu/setting.png</file>
+        <file alias="setting-hover">images/TrayMenu/setting-hover.png</file>
+        <file alias="downloader">images/TrayMenu/dowload.png</file>
+        <file alias="update">images/TrayMenu/update.png</file>
+        <file alias="upgrade">images/TrayMenu/upgrade.png</file>
+        <file alias="switch_close">images/TrayMenu/switch_close_x32.png</file>
+        <file alias="switch_open">images/TrayMenu/switch_open_x32.png</file>
+        <file alias="switch_open_x64">images/TrayMenu/switch_open_x64.png</file>
+        <file alias="no">images/TrayMenu/no.png</file>
+        <file alias="speed">images/TrayMenu/speed.png</file>
+    </qresource>
+    <qresource prefix="/logo">
+        <file alias="logo">images/app.ico</file>
+        <file alias="logo_img">images/logo.png</file>
+    </qresource>
+    <qresource prefix="/html">
+        <file alias="weather">other/weather.html</file>
+        <file alias="card">other/Card.html</file>
+    </qresource>
+    <qresource prefix="/qm">
+        <file alias="home_zh_CN">home_zh_CN.qm</file>
+    </qresource>
+    <qresource prefix="/sub">
+        <file alias="add">images/subico/add.png</file>
+        <file alias="delete">images/subico/delete.png</file>
+        <file alias="delete_all">images/subico/delete_all.png</file>
+        <file alias="update">images/subico/update.png</file>
+        <file alias="return">images/subico/return.png</file>
+    </qresource>
+    <qresource prefix="/join">
+        <file alias="people_1">images/people/people_1.jpg</file>
+        <file alias="people_2">images/people/people_2.jpg</file>
+        <file alias="people_3">images/people/people_3.jpg</file>
+        <file alias="people_4">images/people/people_4.jpg</file>
+        <file alias="people_5">images/people/people_5.jpg</file>
+        <file alias="people_6">images/people/people_6.jpg</file>
+        <file alias="people_7">images/people/people_7.jpg</file>
+        <file alias="people_8">images/people/people_8.jpg</file>
+        <file alias="people_9">images/people/people_9.jpg</file>
+    </qresource>
+    <qresource prefix="/card">
+        <file alias="Name_1">images/card/Name_1.png</file>
+        <file alias="Name_2">images/card/Name_2.png</file>
+        <file alias="Name_3">images/card/Name_3.png</file>
+        <file alias="Name_4">images/card/Name_4.png</file>
+        <file alias="Name_5">images/card/Name_5.png</file>
+        <file alias="Name_6">images/card/Name_6.png</file>
+        <file alias="Name_7">images/card/Name_7.png</file>
+        <file alias="Name_8">images/card/Name_8.png</file>
+        <file alias="Name_9">images/card/Name_9.png</file>
+    </qresource>
+    <qresource prefix="/play">
+        <file alias="next">images/play/next.png</file>
+        <file alias="player">images/play/play.png</file>
+        <file alias="pre">images/play/pre.png</file>
+        <file alias="stop">images/play/stop.png</file>
+        <file>images/play/windows.png</file>
+        <file alias="pause">images/play/pause.png</file>
+        <file alias="volume_noraml">images/play/volume_normal.png</file>
+        <file alias="volume_quit">images/play/Volume_quit.png</file>
+        <file alias="find">images/play/find.png</file>
+        <file alias="Minus">images/play/Minus.png</file>
+        <file alias="Plus">images/play/Plus.png</file>
+        <file alias="Search">images/play/search.png</file>
+        <file alias="manage">images/play/manage.png</file>
+        <file alias="lrc">images/play/lrc.png</file>
+        <file alias="list_cycle">images/play/list_cycle.png</file>
+        <file alias="list_random">images/play/list_random.png</file>
+        <file alias="list_seq">images/play/list_sequence.png</file>
+        <file alias="one_cycle">images/play/one_cycle.png</file>
+        <file alias="loading">images/play/loading.gif</file>
+        <file alias="download">images/play/download.png</file>
+    </qresource>
+    <qresource prefix="/skin">
+        <file alias="default">images/Skin/defult.png</file>
+    </qresource>
+    <qresource prefix="/Mainmenu">
+        <file alias="setting">images/MainMenu/setting.png</file>
+        <file alias="update">images/MainMenu/update.png</file>
+        <file alias="about">images/MainMenu/about.png</file>
+        <file alias="advanced">images/MainMenu/advanced.png</file>
+        <file alias="feature">images/MainMenu/feature.png</file>
+        <file alias="help">images/MainMenu/help.png</file>
+        <file alias="qrcode">images/MainMenu/qrocde.png</file>
+        <file alias="open">images/MainMenu/open.png</file>
+        <file alias="quit">images/MainMenu/quit.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file alias="login">qss/login.qss</file>
+        <file alias="menu">qss/menu.qss</file>
+        <file alias="music_frame">qss/music_frame.qss</file>
+    </qresource>
+    <qresource prefix="/config">
+        <file alias="default">config/default.ini</file>
+    </qresource>
+    <qresource prefix="/qcode">
+        <file alias="qrcode">images/qcode/qrcode.png</file>
+    </qresource>
+    <qresource prefix="/login">
+        <file alias="uncheck">images/login/uncheck.png</file>
+        <file alias="uncheck_hover">images/login/uncheck-hover.png</file>
+        <file alias="check_press">images/login/check.png</file>
+    </qresource>
+    <qresource prefix="/index">
+        <file alias="control">images/index/control.png</file>
+        <file alias="device">images/index/device.png</file>
+        <file alias="device_display">images/index/device_display.png</file>
+        <file alias="info">images/index/info.png</file>
+        <file alias="more">images/index/more.png</file>
+        <file alias="music_display">images/index/music_display.png</file>
+        <file alias="update">images/index/update.png</file>
+        <file alias="video_display">images/index/video_display.png</file>
+        <file alias="vist">images/index/vist.png</file>
+        <file alias="check">images/index/check.png</file>
+    </qresource>
+</RCC>

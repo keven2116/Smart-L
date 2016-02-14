@@ -1,0 +1,9 @@
+QPushButton{
+    font: 75 12pt "楷体";color:white;
+}
+QPushButton::hover{
+    font: 75 12.5pt "楷体";color:white;
+}
+QPushButton:pressed{ 
+	background-color:transparent;
+}

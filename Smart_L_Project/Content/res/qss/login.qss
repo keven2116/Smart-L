@@ -1,0 +1,34 @@
+QToolButton{
+    color:white;background-color:rgb(23, 197, 104);
+}
+QToolButton::hover{
+    color:white;background-color: rgb(23, 197, 104);
+}
+QCheckBox{
+    spacing: 2px;
+}
+QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+}
+QCheckBox::indicator:unchecked {
+    image: url(:/login/uncheck);
+}
+QCheckBox::indicator:unchecked:hover {
+    image: url(:/login/uncheck_hover);
+}
+QCheckBox::indicator:unchecked:pressed {
+    image: url(:/login/check_press);
+}
+QCheckBox::indicator:checked {
+    image: url(:/login/check_press);
+}
+QCheckBox::indicator:checked:hover {
+    image: url(:/login/check_press);
+}
+QCheckBox::indicator:checked:pressed {
+    image: url(:/login/check_press);
+}
+QWidget {
+	background-color:shite;
+}
