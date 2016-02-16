@@ -8,9 +8,10 @@ Device_Descirtion::Device_Descirtion(QWidget *parent) :
 {
     Init_View();
     model = new Devices_TableModel();
+    model->setModalDatas(&dev_data_info_list);
     this->setModel(model);
     Init_Header();
-    model->setModalDatas(&dev_data_info_list);
+
 
     // model->setModalDatas(&dev_data_info_list);
     /*
