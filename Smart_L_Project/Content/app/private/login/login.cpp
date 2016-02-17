@@ -49,6 +49,7 @@ void Login::Resource_init()
         setStyleSheet(qss);
         qssFile.close();
     }*/
+#if 0
     SYSTEM_INFO systemInfo;
     GetSystemInfo(&systemInfo);
     qDebug() << QStringLiteral("处理器掩码:") << systemInfo.dwActiveProcessorMask;
@@ -72,6 +73,7 @@ void Login::Resource_init()
     qDebug() << QStringLiteral("虚拟内存总量:") << statex.ullTotalVirtual/MB;
     qDebug() << QStringLiteral("可用的虚拟内存:") << statex.ullAvailVirtual/MB;
     qDebug() << QStringLiteral("保留（值为0）:") << statex.ullAvailExtendedVirtual/MB;
+#endif
 }
 void Login::mousePressEvent(QMouseEvent *e)
 {
@@ -315,6 +317,8 @@ void Login::translation()
     Close_Btn->setToolTip(tr("close"));
     Qrcode_Btn->setToolTip(tr("2 cord"));
     Regiser_account->setToolTip(tr("Register"));
+    User_Name->setToolTip(tr("user:admin passwd:88888888"));
+
 }
 void Login::OpenUrl(QString url)
 {
