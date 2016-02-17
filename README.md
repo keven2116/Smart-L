@@ -1,29 +1,27 @@
-Smart L Release 1.0  
-======
-[中文文档](README_CN.md "中文文档")
+# Smart L
+##[项目介绍]()
+Smart L - 智能互联为家庭智能设备管理器，设计初衷主要为解决繁琐的设备管理，与硬件联动，采用实时侦测模式来及时发现和管理您的智能设备。此为Smart L的管理系统，还有与底层硬件交互的驱动程序，详情请戳：[iot-utils]("https://github.com/bjwrkj/iot-utils")
 
-These are the release notes for ***Smart L***. Read them carefully,
-as they tell you what this is all about, explain how to using the
-code, and what to do if something goes wrong. 
+##[预览]()
+###[1、主页]()
+![index](http://img.blog.csdn.net/20160217113811071)
+###[2、设备页面]()
+![device](http://img.blog.csdn.net/20160217113852524)
+###[3、播放器页面]()
+![music](http://img.blog.csdn.net/20160217113911227)
+
+##[如何使用]()
+###[Windows 下安装]()
+
+###[Ubuntu以及debian系 Linux 下安装]()
+
+###[其它Linux发行版]()
+
+##[更新日志]()  
+2016-02-15
+1. Smart L 界面全新设计。
+2. 实时监测设备信息。
+3. 音乐播放全新设计。
+
 
 ----------
-
-##What's Smart?
-  Smart L is a clone of the software to manage device and handler,
-  writter from  scratch by keven with assistance from a loosely-knit team of
-  technology across the Net.   
-  It is distributed under the GNU General Public License - see the
-  accompanying COPYING file for more details. 
-##Features:
-1. Support Plat contain Windows(7 or later) && Linux(Ubuntu 12.04 or later) && Android(2.3 or later) 
-2. Function contain 
-
-##Usage
-
-
-##DOCUMENTATION:
-
-###INSTALLING the manage:
-
-##Support
- [Ongoing](http://www.ongoingcre "Ongoing")
