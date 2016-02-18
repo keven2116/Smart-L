@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     translator.load(QString(":/qm/home_zh_CN"));
     a.installTranslator(&translator);
 
-   // Main_Widget w;
+   // Main_Widget w;测试提交
     Login w;
     w.show();
 
