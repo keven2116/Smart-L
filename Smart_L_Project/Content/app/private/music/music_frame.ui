@@ -269,6 +269,9 @@
      border-radius: 3px;
  }</string>
    </property>
+   <property name="maximum">
+    <number>1000</number>
+   </property>
    <property name="orientation">
     <enum>Qt::Horizontal</enum>
    </property>
@@ -286,23 +289,14 @@
     <string notr="true"/>
    </property>
    <property name="currentIndex">
-    <number>1</number>
+    <number>2</number>
    </property>
-   <widget class="QWidget" name="song_content"/>
-   <widget class="QWidget" name="Music_Gedan">
-    <widget class="QLabel" name="label">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>145</width>
-       <height>145</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
+   <widget class="QWidget" name="song_content">
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(153, 160, 255);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="Seach_widget">
     <widget class="QFrame" name="splitterLine">
      <property name="geometry">
       <rect>
@@ -323,6 +317,7 @@
      </property>
     </widget>
    </widget>
+   <widget class="QWidget" name="Zhubo_widget"/>
   </widget>
   <widget class="QPushButton" name="List_Btn">
    <property name="geometry">
