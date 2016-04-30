@@ -21,6 +21,7 @@
 #include "Content/app/private/device/device_descirtion.h"
 #include "Content/app/private/about/about_us.h"
 #include "Content/app/private/music/music_frame.h"
+#include "Content/app/private/device/nvr/nvr_view.h"
 
 class Main_Widget : public QWidget
 {
@@ -108,6 +109,8 @@ private:
     //About_me *about;
     AboutUsDialog *a;
 
+    /*Nvr*/
+    Nvr_view *nvr_dev;
 
 
 

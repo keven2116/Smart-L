@@ -41,6 +41,7 @@ private:
     void Player_StateChanged_Handle(QMediaPlayer::State state);
     void Play_Btn_Click();
     void Seek(int p);
+    void setDuration(qint64);
 };
 
 #endif // MUSIC_FRAME_H

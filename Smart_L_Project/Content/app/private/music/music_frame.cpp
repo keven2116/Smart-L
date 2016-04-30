@@ -52,6 +52,7 @@ void Music_Frame::Play_Init()
     player = new QMediaPlayer(this);
     connect(timer,SIGNAL(timeout()),this,SLOT(Get_PlayInfo()));
     connect(player,SIGNAL(stateChanged(QMediaPlayer::State)),this,SLOT(Player_StateChanged_Handle(QMediaPlayer::State)));
+    connect(player,SIGNAL(durationChanged(qint64)),this,SLOT(setDuration(qint64)));
     connect(ui->Play_Btn,SIGNAL(clicked()),this,SLOT(Play_Btn_Click()));
     connect(ui->Music_process,SIGNAL(sliderMoved(int)),this,SLOT(Seek(int)));
 }
@@ -117,17 +118,23 @@ void Music_Frame::Get_PlayInfo()
 {
     qint64 duration = player->duration();
     qint64 position = player->position();
+    ui->Music_process->setMaximum(duration*1000/duration);
     int percent = position*1000/duration;
     ui->Music_process->setValue(percent);
-    qDebug() << "-----" << percent;
+    qDebug() << "-----" << duration;
+    qDebug() << "-----" << position;
+    qDebug() << "postion" << percent;
+    qDebug() << "postion" << duration*1000/duration;
 
     QTime durationTime(0,0,0,0);
     durationTime = durationTime.addMSecs(duration);
     QString t1 = durationTime.toString("mm:ss");
 
+
     QTime positionTime(0,0,0,0);
     positionTime = positionTime.addMSecs(position);
     QString t2 = positionTime.toString("mm:ss");
+    qDebug() << "-----" << t2;
 
     ui->current_time->setText(t2);
     ui->totle_time->setText(t1);
@@ -147,7 +154,10 @@ void Music_Frame::Player_StateChanged_Handle(QMediaPlayer::State state)
         Reset_Play_Default();
     }
 }
-
+void Music_Frame::setDuration(qint64 dur)
+{
+    ui->Music_process->setRange(0,dur);
+}
 void Music_Frame::Play_Btn_Click()
 {
     if(player->state() == QMediaPlayer::PlayingState)

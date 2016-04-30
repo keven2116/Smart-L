@@ -252,6 +252,7 @@ void Main_Widget::Btn_Switch(int id)
         home_widget->setCurrentWidget(Vist_widget);
         break;
     case 4:
+        home_widget->setCurrentWidget(nvr_dev);
         break;
     case 5:
         home_widget->setCurrentWidget(musicframe);
@@ -424,10 +425,13 @@ void Main_Widget::Smart_L_Init()
     musicframe = new Music_Frame();
     connect(musicframe,SIGNAL(signal_return()),this,SLOT(return_index()));
 
+    nvr_dev = new Nvr_view();
+
     home_widget->addWidget(Index_widget);
     home_widget->addWidget(Vist_widget);
     home_widget->addWidget(Dev_Info_widget);
     home_widget->addWidget(musicframe);
+    home_widget->addWidget(nvr_dev);
     home_widget->setContentsMargins(0,0,0,0);
     home_widget->setMargin(0);
     home_widget->setSpacing(0);
