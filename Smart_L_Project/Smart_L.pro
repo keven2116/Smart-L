@@ -34,7 +34,8 @@ SOURCES += main.cpp\
     Content/app/private/music/music_frame.cpp \
     Content/app/private/music/PaiHangBang/paihangbangwidget.cpp \
     Content/app/private/music/component/musiclistwidget.cpp \
-    Content/app/private/music/component/pagenumbar.cpp
+    Content/app/private/music/component/pagenumbar.cpp \
+    Content/app/private/device/nvr/nvr_view.cpp
 
 HEADERS  += main_widget.h \
     Content/app/public/bottom_btn.h \
@@ -55,13 +56,15 @@ HEADERS  += main_widget.h \
     Content/app/private/music/music_frame.h \
     Content/app/private/music/PaiHangBang/paihangbangwidget.h \
     Content/app/private/music/component/musiclistwidget.h \
-    Content/app/private/music/component/pagenumbar.h
+    Content/app/private/music/component/pagenumbar.h \
+    Content/app/private/device/nvr/nvr_view.h
 
 RESOURCES += \
    Content/res/img.qrc
-RC_FILE += \
+#RC_FILE += \
     Content/res/myapp.rc
 FORMS += \
-    Content/app/private/music/music_frame.ui
+    Content/app/private/music/music_frame.ui \
+    Content/app/private/device/nvr/nvr_view.ui
 
 OTHER_FILES +=
